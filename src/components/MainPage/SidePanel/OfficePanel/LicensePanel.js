@@ -1,11 +1,11 @@
 import React from 'react'
 
-function NewsPanel() {
+function LicensePanel() {
     return (
         <div>
-            NewsPanel
+            License
         </div>
     )
 }
 
-export default NewsPanel
+export default LicensePanel

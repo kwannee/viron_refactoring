@@ -1,7 +1,8 @@
 import React from 'react'
 import OfficePanel from './OfficePanel'
-import AboutPanel from './AboutPanel'
+import AboutPanel from './About/AboutPanel'
 import ProjectsPanel from './ProjectsPanel'
+import Logo from './Logo'
 function SidePanel() {
     return (
         <div            
@@ -9,12 +10,13 @@ function SidePanel() {
             display:'flex',
             flexDirection:'column',
             justifyContent:'flex-end',
-            backgroundColor:"#7B83EB",
             padding:'2rem',
+            borderRight:'1px solid black',
             minHeight:'100vh',
-            minWidth:'275px'
+            minWidth:'300px'
         }}
         >
+            <Logo/>
             <AboutPanel/>
             <ProjectsPanel/>
             <OfficePanel/>

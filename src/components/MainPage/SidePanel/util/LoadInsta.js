@@ -1,11 +1,11 @@
 import React from 'react'
 
-function PeoplePanel() {
+function LoadInsta() {
     return (
         <div>
-            PeoplePanel
+            
         </div>
     )
 }
 
-export default PeoplePanel
+export default LoadInsta

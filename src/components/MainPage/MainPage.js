@@ -4,7 +4,7 @@ import MainPanel from './MainPanel/MainPanel'
 function MainPage() {
     return (
         <div style={{display:'flex'}}>
-            <div style={{width:'300px'}}>
+            <div style={{width:'500px'}}>
                 <SidePanel/>
             </div>
             <div style={{width:'100%'}}>
